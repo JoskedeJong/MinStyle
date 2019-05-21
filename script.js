@@ -8,11 +8,9 @@ pushLorem();
 
 function screenHeight(){                //sets article blocks to screen height
     var h = document.documentElement.clientHeight;
-    console.log(h);
     let l = document.getElementsByClassName("article");
     for(var i = 0; i < l.length; i++){
         l[i].style.height = h+"px";
-        alert(i);
     }
 }
 screenHeight();

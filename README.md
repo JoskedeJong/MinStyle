@@ -7,7 +7,7 @@ Goal: the goal is to quickly produce a stylish, minimalistic website by heavily 
 * [x] create basic html structure with sections for text and pictures
 * [x] add pictures and filler text
 * [x] add background image for top section, bottom section
-* [ ] make text section pop up on load
+* [x] make text section pop up on load
 * [x] make header
 * [x] give header drop-down menu
 * * [ ] attach links in dropdown to sections
