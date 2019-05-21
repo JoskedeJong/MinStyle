@@ -5,17 +5,19 @@
 }
 
 .article1{
-    /* background-color: none; */
     color: white;
 }
-
-/* .article2Img{
-    max-width: 70%;
-    height: auto;
-} */
 
 .article3BG{
     background-image: url("placeholderBig2.jpg");
     width: 100%;
     height: 100%;
+}
+
+.centerBox{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

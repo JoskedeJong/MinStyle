@@ -15,12 +15,12 @@
 
 
   <body>
-    <div class="container">
-        <ul class="nav justify-content-end">
-            <li class="nav-item">something</li>
-            
+        <ul class="nav navbar navbar-dark bg-dark justify-content-end">                                <!--header -->
+            <li class="nav-item">
+                <a class="navbar-brand nav-link" href="#">a button</a>
+            </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">section selection</a>
+                <a class="nav-link navbar-brand dropdown-toggle" data-toggle="dropdown" href="#">section selection</a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item nav-link" href="#">section1</a>
                     <a class="dropdown-item nav-link" href="#">section2</a>
@@ -29,8 +29,9 @@
             </li>
         </ul>
 
-        <div class="row article1BG">
-            <!-- <div class="article1"></div> -->
+    <div class="container">
+
+        <div class="row article 1 article1BG">                                        <!--article 1-->
             <div class="jumbotron col-sm-12 col-md-10 col-lg-7 col-xl-7 article1">
                 <h1>this part contains text</h1> <br>
                 it is quite important to <br>
@@ -38,9 +39,11 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row article 2">                                                   <!--article 2-->
             <div class="col-sm-1 col-md-6 col-lg-7 col-xl-7">
-                <img class="rounded col-6" src="placeholderSmall1.jpg" alt="placeholderSmall1"></img>
+                <div class="centerBox">
+                    <img class="rounded col-6" src="placeholderSmall1.jpg" alt="placeholderSmall1"></img>
+                </div>
             </div>
 
             <div class="col-sm-11 col-md-06 col-lg-5 col-xl-5 lorem">
@@ -49,7 +52,7 @@
         </div>
        
 
-        <div class="row article3BG">
+        <div class="row article 3 article3BG">                                        <!--article 3-->
             <div class="col-sm-12 col-md-6 col-lg-7 col-xl-7 lorem">
                 this part contains text
             </div>
@@ -59,7 +62,21 @@
             </div>
         </div>
     </div>
-    
+
+    <ul class="nav justify-content-start navbar navbar-dark bg-dark">                                <!--footer -->
+        <li class="nav-item navbar-brand">
+            <a class="nav-link" href="#">a button</a>
+        </li>
+        
+        <li class="nav-item navbar-brand">
+            <a class="nav-link" href="#">a button</a>
+        </li>
+
+        <li class="nav-item navbar-brand">
+            <a class="nav-link" href="#">a button</a>
+        </li>
+    </ul>
+
     <!-- SCRIPT -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
