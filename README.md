@@ -5,8 +5,10 @@ Goal: the goal is to quickly produce a stylish, minimalistic website by heavily 
 
 #### Development Goals
 * [x] create basic html structure with sections for text and pictures
-* [ ] add pictures and filler text
-* [ ] add background image for top section, bottom section.
+* [x] add pictures and filler text
+* * [ ] style pictures and filler text
+* [x] add background image for top section, bottom section
+* * [ ] style background to fill entire width of screen
 * [ ] make text section pop up on load
 * [ ] make header
 * [ ] give header drop-down menu
