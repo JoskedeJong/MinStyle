@@ -15,11 +15,14 @@
 
 
   <body>
-        <ul class="nav navbar navbar-dark bg-dark justify-content-end">                                <!--header -->
-            <li class="nav-item">
+        <ul class="nav navbar navbar-dark bg-dark">                                <!--header -->
+            <li class="nav-item order-1 ">
+                <img src="logo.png" alt="logo" class="navbar-brand"></img>
+            </li>
+            <li class="nav-item order-2 ml-auto">
                 <a class="navbar-brand nav-link" href="#">a button</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown order-3 ">
                 <a class="nav-link navbar-brand dropdown-toggle" data-toggle="dropdown" href="#">section selection</a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item nav-link"  onclick="scrollTo1()">section1</a>
@@ -45,9 +48,9 @@
                 </div>
             </div>
 
-            <div class="col-sm-11 col-md-06 col-lg-5 col-xl-5 ">
+            <div class="col-sm-11 col-md-06 col-lg-5 col-xl-5">
                 <div class="row">
-                    <div class="col-2"></div>
+                    <div class="col-1"></div>
                     <div class="col-8 lorem text-justify pt-5"></div>
                 </div>
             </div>

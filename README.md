@@ -12,6 +12,7 @@ Goal: the goal is to quickly produce a stylish, minimalistic website by heavily 
 * [x] give header drop-down menu
 * * [x] attach links in dropdown to sections
 * * [ ] attach scrollspy to links in dropdown
+* * * won't be visible, needs alternate approach to be useful
 * * [ ] add slightly slow transform to dropdown
 * * [ ] remove background and border from dropdown
 * [x] make footer
@@ -22,7 +23,7 @@ Goal: the goal is to quickly produce a stylish, minimalistic website by heavily 
 * * [x] style background to fill entire width of screen
 * * [x] style articles to be height of screen
 * * [x] style header
-* [ ] add logo
+* [x] add logo, space items properly
 
 
 
