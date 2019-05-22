@@ -1,5 +1,11 @@
+.p0{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .article1BG{
     background-image: url("placeholderBig1.jpg");
+    background-size: cover;
     width: 100%;
     height: 100%;
 }
@@ -9,10 +15,18 @@
     color: rgb(49, 41, 41);
 }
 
+.article3{
+    color: white;
+}
+
 .article3BG{
     background-image: url("placeholderBig2.jpg");
     width: 100%;
     height: 100%;
+}
+
+.jumbotron{
+    font-size: 200%;
 }
 
 .centerBox{

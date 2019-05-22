@@ -16,10 +16,11 @@ Goal: the goal is to quickly produce a stylish, minimalistic website by heavily 
 * [ ] add social media links with images
 * [ ] add contact button
 * [ ] style page
-* * [ ] style pictures and filler text
-* * [ ] style background to fill entire width of screen
+* * [x] style pictures and filler text
+* * [x] style background to fill entire width of screen
 * * [x] style articles to be height of screen
 * * [x] style header
+* [ ] add logo
 
 
 
