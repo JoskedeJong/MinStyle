@@ -14,3 +14,15 @@ function screenHeight(){                //sets article blocks to screen height
     }
 }
 screenHeight();
+
+function scrollTo1(){
+    article1.scrollIntoView(true);
+}
+
+function scrollTo2(){
+    article2.scrollIntoView(true);
+}
+
+function scrollTo3(){
+    article3.scrollIntoView(true);
+}

@@ -10,8 +10,10 @@ Goal: the goal is to quickly produce a stylish, minimalistic website by heavily 
 * [x] make text section pop up on load
 * [x] make header
 * [x] give header drop-down menu
-* * [ ] attach links in dropdown to sections
+* * [x] attach links in dropdown to sections
 * * [ ] attach scrollspy to links in dropdown
+* * [ ] add slightly slow transform to dropdown
+* * [ ] remove background and border from dropdown
 * [x] make footer
 * [ ] add social media links with images
 * [ ] add contact button

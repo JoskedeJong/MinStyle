@@ -22,15 +22,15 @@
             <li class="nav-item dropdown">
                 <a class="nav-link navbar-brand dropdown-toggle" data-toggle="dropdown" href="#">section selection</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item nav-link" href="#">section1</a>
-                    <a class="dropdown-item nav-link" href="#">section2</a>
-                    <a class="dropdown-item nav-link" href="#">section3</a>
+                    <a class="dropdown-item nav-link"  onclick="scrollTo1()">section1</a>
+                    <a class="dropdown-item nav-link"  onclick="scrollTo2()">section2</a>
+                    <a class="dropdown-item nav-link"  onclick="scrollTo3()">section3</a>
                 </div>
             </li>
         </ul>
 
     <div class="container-fluid p0">
-        <div class="row article article1 article1BG ml-0">                                        <!--article 1-->
+        <div class="row article article1 article1BG ml-0" id="article1">                                        <!--article 1-->
             <div class="fadeInUp animated animatedFadeInUp jumbotron col-sm-12 col-md-10 col-lg-7 col-xl-7 article1">
                 <h1>this part contains text <br></h1>
                 it is quite important to read this <br>
@@ -38,7 +38,7 @@
             </div>
         </div>
 
-        <div class="row article article 2">                                                   <!--article 2-->
+        <div class="row article article 2" id="article2">                                                   <!--article 2-->
             <div class="col-sm-1 col-md-6 col-lg-7 col-xl-7">
                 <div class="centerBox">
                     <img class="rounded col-6" src="placeholderSmall1.jpg" alt="placeholderSmall1"></img>
@@ -54,11 +54,11 @@
         </div>
        
 
-        <div class="row article article3BG ml-0">                                        <!--article 3-->
+        <div class="row article article3 article3BG ml-0" id="article3">                                        <!--article 3-->
             <div class="col-sm-12 col-md-6 col-lg-7 col-xl-7">
                 <div class="row">
                     <div class="col-2"></div>
-                    <div class="article3 col-7 lorem text-justify pt-5"></div>
+                    <div class="col-7 lorem text-justify pt-5"></div>
                 </div>
             </div>
 
